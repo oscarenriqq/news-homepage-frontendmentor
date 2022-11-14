@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <title>Frontend Mentor | News homepage</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+        .attribution {
+            font-size: 11px;
+            text-align: center;
+        }
+
+        .attribution a {
+            color: hsl(228, 45%, 44%);
+        }
+    </style>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="menu-mobile">
+            <nav class="header__nav__mobile">
+                <a href="#">Home</a>
+                <a href="#">New</a>
+                <a href="#">Popular</a>
+                <a href="#">Trending</a>
+                <a href="#">Categories</a>
+            </nav>
+            <img class="menu-icon-close" src="assets/images/icon-menu-close.svg">
+        </div> 
+        <header>
+            <div class="header__container">
+                <div class="header__logo">
+                    <img src="assets/images/logo.svg" alt="Logo">
+                </div>
+                <nav class="header__nav">
+                    <a href="#">Home</a>
+                    <a href="#">New</a>
+                    <a href="#">Popular</a>
+                    <a href="#">Trending</a>
+                    <a href="#">Categories</a>
+                </nav>
+                <img class="menu-icon" src="assets/images/icon-menu.svg" alt="">
+            </div>
+        </header>
+
+        <main>
+            <div class="main__first__block">
+                <div class="block__left">
+                    <img class="main-conver-desktop" src="assets/images/image-web-3-desktop.jpg" alt="Web3">
+                    <img class="main-conver-mobile" src="assets/images/image-web-3-mobile.jpg" alt="Web3">
+                    <div class="web3_content__block">
+                        <span>The Bright Future of Web 3.0?</span>
+                        <div class="web3__readmore">
+                            <p> We dive into the next evolution of the web that claims to put the power of the platforms
+                                back into the hands of the people.
+                                But is it really fulfilling its promise?</p>
+                            <button>Read more</button>
+                        </div>
+                    </div>
+                </div>
+                <aside class="news">
+                    <span class="news__title">New</span>
+                    <div class="news__child">
+                        <span>Hydrogen VS Electric Cars</span>
+                        <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+                    </div>
+                    <hr>
+                    <div class="news__child">
+                        <span>The Downsides of AI Artistry</span>
+                        <p>What are the possible adverse effects of on-demand AI image generation?</p>
+                    </div>
+                    <hr>
+                    <div class="news__child">
+                        <span>Is VC Funding Drying Up?</span>
+                        <p> Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+                    </div>
+
+                </aside>
+            </div>
+            <div class="main__last__block">
+                <div class="topics">
+                    <img src="assets/images/image-retro-pcs.jpg">
+                    <div class="topic-description">
+                        <span class="top">01</span>
+                        <span class="topic-title">Reviving Retro PCs</span>
+                        <p>What happens when old PCs are given modern upgrades?</p>
+                    </div>
+                </div>
+                <div class="topics">
+                    <img src="assets/images/image-top-laptops.jpg">
+                    <div class="topic-description">
+                        <span class="top">02</span>
+                        <span class="topic-title">Top 10 Laptops of 2022</span>
+                        <p>Our best picks for various needs and budgets.</p>
+                    </div>
+                </div>
+                <div class="topics">
+                    <img src="assets/images/image-gaming-growth.jpg">
+                    <div class="topic-description">
+                        <span class="top">03</span>
+                        <span class="topic-title">The Growth of Gaming</span>
+                        <p>How the pandemic has sparked fresh opportunities.</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+    </div>
+
+    <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="#">Your Name Here</a>.
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
